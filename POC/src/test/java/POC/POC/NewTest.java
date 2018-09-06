@@ -23,6 +23,20 @@ public class NewTest {
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Google")); 	
 	  }
+	  
+	  @Test
+	  public void f1() {
+			driver.get("https://www.google.com/");  
+			String title = driver.getTitle();				 
+			Assert.assertTrue(title.contains("Google")); 	
+	  }
+	  
+	  @Test
+	  public void f2() {
+			driver.get("https://www.google.com/");  
+			String title = driver.getTitle();				 
+			Assert.assertTrue(title.contains("Google")); 	
+	  }
 
 	  @AfterMethod
 	  public void afterMethod() {
