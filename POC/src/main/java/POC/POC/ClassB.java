@@ -1,5 +1,9 @@
 package POC.POC;
 
 public class ClassB {
- private int id;
+
+	public ClassB() {
+		// TODO Auto-generated constructor stub
+	}
+
 }
