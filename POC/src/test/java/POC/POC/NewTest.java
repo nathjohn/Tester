@@ -37,6 +37,13 @@ public class NewTest {
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Google")); 	
 	  }
+	  
+	  @Test
+	  public void f3() {
+			driver.get("https://www.google.com/");  
+			String title = driver.getTitle();				 
+			Assert.assertTrue(title.contains("Google")); 	
+	  }
 
 	  @AfterMethod
 	  public void afterMethod() {
